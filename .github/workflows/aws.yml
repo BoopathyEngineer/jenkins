@@ -28,7 +28,7 @@ jobs:
           key: ${{ secrets.AWS }}
           script: |
             sudo su &&
-            cd ../../var/zita &&
+            cd ../../var/www/html &&
              git checkout main &&
               git fetch --all &&
               git reset --hard origin/main &&
